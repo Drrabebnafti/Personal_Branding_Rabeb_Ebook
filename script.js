@@ -67,7 +67,7 @@ form.addEventListener("submit", async (event) => {
 
         const link = document.createElement("a");
 
-        link.href = "assets/ebook.pdf";
+        link.href = "assets/7-KEY_Personal_Branding_eBook.pdf";
 
         link.download = "Personal-Branding-Ebook.pdf";
 
