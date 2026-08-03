@@ -286,3 +286,56 @@ font-size:38px;
 }
 
 }
+/* ===========================
+   AUTHOR
+=========================== */
+
+.author{
+
+    margin-top:40px;
+
+    padding-top:25px;
+
+    border-top:1px solid rgba(255,255,255,.15);
+
+    text-align:center;
+
+}
+
+.author span{
+
+    display:block;
+
+    color:#b8c7d9;
+
+    font-size:14px;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+    margin-bottom:8px;
+
+}
+
+.author h3{
+
+    color:#ffb400;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    margin-bottom:6px;
+
+}
+
+.author p{
+
+    margin:0;
+
+    color:#d5dbe4;
+
+    font-size:15px;
+
+}
