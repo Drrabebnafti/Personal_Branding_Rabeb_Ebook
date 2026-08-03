@@ -96,7 +96,7 @@ form.addEventListener("submit", async (event) => {
 
         button.disabled = false;
 
-        button.innerHTML = "📘 Download Free Ebook";
+        button.innerHTML = "🚀 Get My Free Ebook";
 
     }
 
