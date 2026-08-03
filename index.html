@@ -1,18 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Ebook - Personal Branding</title>
 
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Free Personal Branding Ebook</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <h1>Download My Free Ebook</h1>
+<div class="background"></div>
 
-    <script src="script.js"></script>
+<div class="container">
+
+    <div class="left">
+
+        <img
+            src="assets/cover_book.png"
+            class="book"
+            alt="ebook">
+
+    </div>
+
+    <div class="right">
+
+        <span class="badge">
+            FREE EBOOK
+        </span>
+
+        <h1>
+            Build Your Personal Brand
+        </h1>
+
+        <p>
+
+            Learn how to create a powerful personal brand,
+            attract opportunities,
+            grow your audience,
+            and become unforgettable.
+
+        </p>
+
+        <form id="leadForm">
+
+            <input
+                id="name"
+                type="text"
+                placeholder="Full Name"
+                required>
+
+            <input
+                id="email"
+                type="email"
+                placeholder="Email Address"
+                required>
+
+            <input
+                id="phone"
+                type="tel"
+                placeholder="Phone Number"
+                required>
+
+            <button type="submit">
+
+                📘 Download Free Ebook
+
+            </button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script src="script.js"></script>
 
 </body>
 </html>
